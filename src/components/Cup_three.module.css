@@ -1,0 +1,186 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    transform: translate3d(0,0,0);
+}
+
+.cupBox {
+    width: 100%;
+}
+
+.cup_all_QsQ {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.rcanvas {*/
+/*    position: absolute;*/
+/*    top: 22%;*/
+/*    left: 40%;*/
+/*}*/
+
+
+/*.cup_all {*/
+/*    !*background: #0000FF;*!*/
+
+/*    position: relative;*/
+/*    display: block;*/
+/*    overflow: hidden;*/
+/*    margin: 0;*/
+/*    z-index: -2;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background-blend-mode: color-burn;*/
+/*    !*will-change: transform;*!*/
+/*    !*transition: trsnsform 5000ms, opacity 5000ms;*!*/
+
+/*    !*opacity: 0;*!*/
+/*}*/
+
+
+
+
+.cupBox_q {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    /*object-fit: cover;*/
+}
+
+/*.cupBox {*/
+/*    clip-path: polygon(00,calc(var(--maskX) * 1% + (var(--maskY) - 50) * .4%) 0,calc(var(--maskX) * 1% + (var(--maskY)- 50) * -.4%) 100%, 0 100%);*/
+/*}*/
+
+@media all and (max-width:1380px), all and (max-height: 650px), all and (max-height:768px), all and (max-height:768px)   {
+    .cup_all {
+        width: 85%;
+    }
+    #cup_alls {
+        left: 20%;
+    }
+    /*.title_header{*/
+
+    /*}*/
+    /*.canvas {*/
+    /*    width: 40%;*/
+    /*    position: absolute;*/
+    /*    left: 50%;*/
+    /*    top: -10%;*/
+    /*    height: auto;*/
+    /*}*/
+    /*.cnvs {*/
+    /*    position: absolute;*/
+    /*    object-fit: cover;*/
+    /*    left: 0;*/
+    /*    width: 80%;*/
+    /*}*/
+}
+
+
+/*@media only screen and (max-width:1280px) {*/
+/*    .cup_all_QsQ {*/
+/*        position: absolute;*/
+/*        padding-right: 0;*/
+/*        padding-left: 0;*/
+/*        height: 100%;*/
+/*        width: 100%;*/
+/*        top: 15%;*/
+/*        left: 50%;*/
+/*        transition: trsnsform 300ms, opacity 200ms;*/
+/*        will-change: transform;*/
+/*        transform: rotate(15deg) scale(1.5);*/
+/*        opacity: 0;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width:1024px) {*/
+/*    .cup_all_QsQ {*/
+/*        top: 10%;*/
+/*        left: 0;*/
+/*    }*/
+/*}*/
+
+@media all and (max-width:968px) {
+    .cup_all_QsQ {
+        top: 5%;
+    }
+}
+
+/*@media only screen and (max-width:768px) {*/
+/*    .cup_all_QsQ {*/
+/*        position: absolute;*/
+/*        padding-right: 0;*/
+/*        padding-left: 0;*/
+/*        height: 100%;*/
+/*        width: 80%;*/
+/*        top: 35%;*/
+/*        left: 80%;*/
+/*        transition: trsnsform 300ms, opacity 200ms;*/
+/*        will-change: transform;*/
+/*        transform: rotate(15deg) scale(1.5);*/
+/*        opacity: 0;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width:658px) {*/
+/*    .cup_all_QsQ {*/
+/*        position: absolute;*/
+/*        padding-right: 0;*/
+/*        padding-left: 0;*/
+/*        height: 100%;*/
+/*        width: 100%;*/
+/*        top: 35%;*/
+/*        left: 92%;*/
+/*        transition: trsnsform 300ms, opacity 200ms;*/
+/*        will-change: transform;*/
+/*        transform: rotate(15deg) scale(1.5);*/
+/*        opacity: 0;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width:420px) {*/
+/*    .cup_all_QsQ {*/
+/*        height: 100%;*/
+/*        width: 100%;*/
+/*        top: 35%;*/
+/*        left: 135%;*/
+/*        opacity: 0;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width:376px) {*/
+/*    .cup_all_QsQ {*/
+/*        position: absolute;*/
+/*        padding-right: 0;*/
+/*        padding-left: 0;*/
+/*        height: 100%;*/
+/*        width: 100%;*/
+/*        top: 35%;*/
+/*        left: 148%;*/
+/*        transition: trsnsform 300ms, opacity 200ms;*/
+/*        will-change: transform;*/
+/*        transform: rotate(15deg) scale(1.5);*/
+/*        opacity: 0;*/
+/*    }*/
+/*}*/
+
+@media only screen and (max-width:360px) {
+    .cup_all_QsQ {
+        left: -5%;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .cup_all_QsQ {
+        left: -5%;
+        align-items: center;
+    }
+}

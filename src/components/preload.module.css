@@ -1,0 +1,41 @@
+/*.bgBl {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: #000;*/
+/*    will-change: transform;*/
+/*}*/
+.bl_container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*top: 0;*/
+    /*left: 0;*/
+    z-index: 570;
+    transform: translate3d(0,0,0);
+}
+
+.content_svg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+}
+.amc {
+    opacity: 0;
+}
+
+.enrg {
+    opacity:0;
+}
+
+/*svg {*/
+/*    font-family: 'Intro Book Regular', sans-serif;*/
+/*    font-size: 3rem;*/
+/*    font-weight: 800;*/
+/*    text-transform: uppercase;*/
+/*}*/

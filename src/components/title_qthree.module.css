@@ -1,0 +1,222 @@
+.header {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    margin: auto 0;
+    width: 40%;
+    /*height: 200px;*/
+    z-index: 9;
+    transform: translate3d(0, 0, 0);
+
+}
+
+.title {
+    font-size: 3rem;
+    text-align: left;
+    line-height: 1em;
+    color: #ffffff;
+    font-family: 'Intro Book Regular', sans-serif;
+    font-weight: bold;
+}
+
+.decrypt {
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.1em;
+    color: #E7EAED;
+    opacity: .2;
+    font-family: 'Intro-Light', monospace;
+    /*font-weight: 400;*/
+    font-style: oblique;
+    transform-style: preserve-3d;
+    transition:transform 1s  ease-out, color 1s ease-out, font-size 1s ease-out,font-weight 1s ease-out, background-color 1s ease-out;
+}
+
+@media all and (max-height:650px) {
+    .header {
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        margin: 0;
+        width: 30%;
+        height: auto;
+        z-index: 9;
+        transform: translate3d(0,0,0);
+    }
+    .title {
+        font-size: 2rem;
+        text-align: left;
+        line-height: 1em;
+        color: #ffffff;
+        font-family: 'Intro-Bold', sans-serif;
+        font-weight: 700;
+    }
+    .decrypt {
+        font-size: .7rem;
+        text-align: left;
+        line-height: 1.1em;
+        color: #E7EAED;
+        opacity: .2;
+        font-family: 'Intro-Light', monospace;
+        font-weight: 300;
+        font-style: oblique;
+        transform-style: preserve-3d;
+        transition: filter 4s ease-in-out, transform 1s ease-out, color 1s ease-out, font-size 1s ease-out,font-weight 1s ease-out, background-color 1s ease-out;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .header {
+        position: absolute;
+        top: 10%;
+        left: 6%;
+        margin: auto 0;
+        width: 90%;
+        height: 200px;
+        z-index: 9;
+    }
+    .title {
+        text-align: center;
+    }
+    .decrypt {
+        text-align: center;
+    }
+}
+@media all and (max-width: 1280px) {
+    .header {
+        position: absolute;
+        top: 45%;
+        left: 19%;
+        margin: auto 0;
+        width: 30%;
+    }
+    .title {
+        font-size: 1.5rem;
+        text-align: left;
+
+    }
+    .decrypt {
+        font-size: 1vw;
+        margin: 5px;
+        text-align: left;
+
+    }
+}
+@media all and (max-width: 1024px) {
+    .header {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        margin: auto 0;
+        width: 70%;
+        height: 200px;
+        z-index: 9;
+    }
+    .title {
+        text-align: center;
+    }
+    .decrypt {
+        text-align: center;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:968px) {
+    .header {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        margin: auto 0;
+        width: 70%;
+        height: auto;
+        z-index: 9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width:768px) {
+    .header {
+        top: 10%;
+        height: auto;
+        width: 75%;
+        left: 13%;
+
+
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .decrypt {
+        font-size: 2vw;
+        margin: 5px;
+    }
+}
+@media all and (max-width:658px) {
+    .header {
+        top: 10%;
+        height: auto;
+        width: 75%;
+        left: 13%;
+
+
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .decrypt {
+        font-size: 2vw;
+        margin: 5px;
+    }
+}
+@media all and (max-width:420px) {
+    .header {
+        top: 10%;
+        height: auto;
+        width: 75%;
+        left: 13%;
+
+
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .decrypt {
+        font-size: 2vw;
+        margin: 5px;
+    }
+}
+
+
+@media all and (max-width:376px) {
+    .header {
+        top: 10%;
+        height: auto;
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .decrypt {
+        font-size: .7em;
+        margin: 5px;
+    }
+}
+
+@media all and (max-width:360px) {
+    .header {
+        top: 10%;
+        height: auto;
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .decrypt {
+        font-size: 2vw;
+        margin: 3px;
+        text-wrap: none;
+        font-family: 'Intro-Light', monospace;
+        /*font-weight: 300;*/
+    }
+}

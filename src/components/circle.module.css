@@ -1,0 +1,144 @@
+
+.container {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    top: 25%;
+    left: 52%;
+    transform: translate3d(0,0,0);
+}
+
+.content_nose {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    display: flex;
+    top: 24%;
+    left: 33.33%;
+    align-items: center;
+}
+._nose {
+    position: absolute;
+    /*width: 70%;*/
+    height: 70%;
+}
+.circle {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+@media all and (max-width:1440px) {
+    .content_nose {
+        left: 30%;
+    }
+}
+
+@media all and (max-width:1280px) {
+    .container {
+        position: absolute;
+        width: 10%;
+        /* height: 13%; */
+        top: 25%;
+        left: 50%;
+    }
+    .content_nose {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 23.5%;
+        left: 30.33%;
+        align-items: center;
+    }
+}
+@media all and (max-width:1024px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 33%;
+        left: 32%;
+    }
+    .content_nose {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 31.5%;
+        left: 6.33%;
+        align-items: center;
+    }
+}
+@media all and (max-width:768px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 40%;
+        left: 40%;
+    }
+    .content_nose {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 40.5%;
+        left: 13.33%;
+        align-items: center;
+    }
+}
+@media all and (max-width:658px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 40%;
+        left: 40%;
+    }
+    .content_nose {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 40.5%;
+        left: 13.33%;
+        align-items: center;
+    }
+}
+@media all and (max-width:420px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 40%;
+        left: 40%;
+    }
+    .content_nose {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 40.5%;
+        left: 13.33%;
+        align-items: center;
+    }
+}
+@media all and (max-width:360px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 40%;
+        left: 40%;
+    }
+    .content_nose {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 40.5%;
+        left: 13.33%;
+        align-items: center;
+    }
+}

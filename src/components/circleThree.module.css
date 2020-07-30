@@ -1,0 +1,125 @@
+
+.container {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 65%;
+    left: 57%;
+    transform: translate3d(0,0,0);
+
+}
+
+.content_zigrivay {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    display: flex;
+    top: 64%;
+    left: 66%;
+    align-items: center;
+}
+._zigrivay {
+    position: absolute;
+    /*width: 70%;*/
+    height: 70%;
+}
+.circle {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+/*@media (max-width:1280px) {*/
+/*    .container {*/
+/*        position: absolute;*/
+/*        width: 13%;*/
+/*        height: 13%;*/
+/*        top: 71%;*/
+/*        left: 44%;*/
+/*    }*/
+/*}*/
+@media (max-width:1024px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 71%;
+        left: 44%;
+    }
+    .content_zigrivay {
+        top: 71%;
+        left: 62%;
+    }
+}
+@media all and (max-width:768px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 71%;
+        left: 44%;
+    }
+    .content_zigrivay {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 72%;
+        left: 61%;
+        align-items: center;
+    }
+}
+@media all and (max-width:658px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 71%;
+        left: 44%;
+    }
+    .content_zigrivay {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 72%;
+        left: 61%;
+        align-items: center;
+    }
+}
+@media (max-width:420px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 71%;
+        left: 44%;
+    }
+    .content_zigrivay {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 72%;
+        left: 61%;
+        align-items: center;
+    }
+}
+@media (max-width:360px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 71%;
+        left: 44%;
+    }
+    .content_zigrivay {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 72%;
+        left: 61%;
+        align-items: center;
+    }
+}

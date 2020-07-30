@@ -1,0 +1,97 @@
+.container_content {
+    position: absolute;
+    width: 2.5%;
+    /*height: 7%;*/
+    left: 19%;
+    bottom: 16%;
+    transform: translate3d(0,0,0);
+
+}
+.cupBox3 {
+    display: flex;
+    justify-content: center;
+}
+/*.content_size{*/
+/*    position: absolute;*/
+/*    width: 70%;*/
+/*    left: -5%;*/
+/*    top: 70%;*/
+/*    !* display: flex; *!*/
+/*    !*height: 100%;*!*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.cupBox {*/
+/*    clip-path: polygon(00,calc(var(--maskX) * 1% + (var(--maskY) - 50) * .4%) 0,calc(var(--maskX) * 1% + (var(--maskY)- 50) * -.4%) 100%, 0 100%);*/
+/*}*/
+
+@media all and (max-width: 1024px) {
+    .container_content {
+        position: absolute;
+        width: 15%;
+        top: 86%;
+        left: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    .cupBox3 {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container_content {
+        position: absolute;
+        bottom: 9.5%;
+        left: 30.5%;
+        width: 13%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cupBox3 {
+        width: 70%;
+    }
+}
+@media all and (max-width: 658px) {
+    .container_content {
+        position: absolute;
+        bottom: 9.5%;
+        left: 30.5%;
+        width: 13%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cupBox3 {
+        width: 70%;
+    }
+}
+@media all and (max-width: 420px) {
+    .container_content {
+        position: absolute;
+        bottom: 9.5%;
+        left: 30.5%;
+        width: 13%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cupBox3 {
+        width: 70%;
+    }
+}
+@media all and (max-width: 360px) {
+    .container_content {
+        position: absolute;
+        bottom: 9.5%;
+        left: 30.5%;
+        width: 13%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cupBox3 {
+        width: 70%;
+    }
+}

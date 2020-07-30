@@ -1,0 +1,66 @@
+.container {
+    position: absolute;
+    width: 6%;
+    height: 3%;
+    top: 67.33%;
+    left: 62.8%;
+    overflow: hidden;
+}
+
+.line {
+    margin: 0;
+    padding: 0;
+    /*transform: translateY(200);*/
+    cursor: pointer;
+}
+
+@media (max-width:1024px) {
+    .container {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        top: 73.33%;
+        left: 54.8%;
+        overflow: hidden;
+    }
+}
+@media (max-width:768px) {
+    .container {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        top: 74%;
+        left: 53.8%;
+        overflow: hidden;
+    }
+}
+@media (max-width:658px) {
+    .container {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        top: 74%;
+        left: 53.8%;
+        overflow: hidden;
+    }
+}
+@media (max-width:420px) {
+    .container {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        top: 74%;
+        left: 53.8%;
+        overflow: hidden;
+    }
+}
+@media (max-width:360px) {
+    .container {
+        position: absolute;
+        width: 6%;
+        height: 6%;
+        top: 74%;
+        left: 53.8%;
+        overflow: hidden;
+    }
+}

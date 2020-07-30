@@ -1,0 +1,257 @@
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: translate3d(0,0,0);
+}
+
+
+.cup_all_Qs {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.canvas {
+    opacity: 1;
+    width: 24%;
+    position: absolute;
+    left: 43%;
+    top: -17%;
+}
+
+.cnvs {
+    object-fit: cover;
+}
+.cupBox {
+    width: 100%;
+}
+
+@media all and (max-width:1440px) {
+    .cup_all {
+        left: 5%;
+        width: 45%;
+    }
+    .title_header{
+        position: absolute;
+        top: 17%;
+        left: 10%;
+        margin: auto 0;
+        width: 80%;
+        height: 400px;
+        z-index: 9;
+    }
+    .canvas {
+        opacity: 1;
+        width: 24%;
+        position: absolute;
+        left: 40%;
+        top: -20%;
+    }
+    .cnvs {
+         /*position: absolute;*/
+         object-fit: cover;
+         left: 0;
+     }
+}
+
+@media and and (max-width:1380px), all and (max-height: 650px) {
+    .cup_all {
+        left: 5%;
+        width: 35%;
+    }
+    .title_header{
+
+    }
+    .canvas {
+        width: 40%;
+        position: absolute;
+        left: 50%;
+        top: -10%;
+        height: auto;
+    }
+    .cnvs {
+        position: absolute;
+        object-fit: cover;
+        left: 0;
+        width: 80%;
+    }
+}
+
+@media all and (max-width:1280px) {
+    .cup_all_Qs {
+
+    }
+    .title_header{
+
+    }
+    .canvas {
+
+    }
+    .cnvs {
+
+    }
+}
+
+@media all and (max-width:1024px) {
+    .cup_all_Qs {
+        align-items: center;
+        left: -15%;
+    }
+    .title_header{
+        position: absolute;
+        top: 17%;
+        left: 10%;
+        margin: auto 0;
+        width: 80%;
+        height: 400px;
+        z-index: 9;
+    }
+    .canvas {
+        position: absolute;
+        width: 100%;
+        top: -10%;
+        left: 20%;
+        height: 70%;
+    }
+    .cnvs {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /*object-fit: cover;*/
+        left: 0;
+    }
+}
+@media all and (width:640px), all and (max-height:360px) {
+    .cup_all_Qs {
+        align-items: center;
+        left: -15%;
+    }
+    .canvas {
+        position: absolute;
+        width: 40%;
+        top: -10%;
+        left: 34%;
+        height: 70%;
+    }
+    .cnvs {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        left: 0;
+    }
+    .cup_all {
+        width: 25%;
+        left: 7%;
+        top: 3%;
+    }
+}
+@media all and (max-width:968px) {
+    .cup_all {
+        width: 100%;
+        left: 2%;
+        top: 3%;
+    }
+}
+
+@media all and (width:768px){
+
+    .cup_all_Qs {
+        align-items: center;
+        left: 0;
+    }
+    .canvas {
+        position: absolute;
+        width: 100%;
+        top: -10%;
+        left: 20%;
+        height: 70%;
+    }
+    .cnvs {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /*object-fit: cover;*/
+        left: 0;
+    }
+    .cup_all {
+        left: -10%;
+    }
+
+}
+
+@media all and (max-width:420px) {
+
+    .cup_all {
+        left: 2%;
+    }
+}
+
+@media all and (max-width:376px) {
+    .cup_all {
+        left: 2%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .cup_all_Qs {
+        align-items: center;
+        left: -13%;
+    }
+    .canvas {
+        position: absolute;
+        top: 0;
+        left: 10%;
+    }
+    .cnvs {
+        position: absolute;
+        left: 0;
+        top: -20%;
+    }
+    .cup_all {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+
+/*@media only screen and (max-width:320px) {*/
+/*    .cup_all_Qs {*/
+/*        position: absolute;*/
+/*        padding-right: 0;*/
+/*        padding-left: 0;*/
+/*        height: 100%;*/
+/*        width: 100%;*/
+/*        top: 20%;*/
+/*        left: 166%;*/
+/*        transition: trsnsform 300ms, opacity 200ms;*/
+/*        will-change: transform;*/
+/*        transform: rotate(15deg) scale(1.5);*/
+/*        opacity: 0;*/
+/*    }*/
+/*    .canvas {*/
+/*        position: absolute;*/
+/*        width: 100%;*/
+/*        top: -10%;*/
+/*        left: 20%;*/
+/*        height: 70%;*/
+/*    }*/
+/*    .cnvs {*/
+/*        position: absolute;*/
+/*        width: 100%;*/
+/*        height: 100%;*/
+/*        !*object-fit: cover;*!*/
+/*        left: 0;*/
+/*    }*/
+/*}*/
+
+/*!*.cupBox {*!*/
+/*!*    clip-path: polygon(00,calc(var(--maskX) * 1% + (var(--maskY) - 50) * .4%) 0,calc(var(--maskX) * 1% + (var(--maskY)- 50) * -.4%) 100%, 0 100%);*!*/
+/*!*}*!*/

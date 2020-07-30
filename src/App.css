@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+img {
+
+  max-width: 100%;
+  height: auto;
+
+}
+
+.App {
+  text-align: center;
+  background-color: #000000;
+  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: .8rem;
+  background-image: url(wood-bg-1440x900.png);
+  /*object-fit: cover;*/
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  z-index: 0;
+  /*will-change: transform;*/
+  /*transform: translate3d(0, 0, 0);*/
+  /*background-size: calc(.8 * 100vh) 100vh;*/
+
+  will-change: transform;
+
+}
+
+@media all and (max-width:1280px) {
+  .App {
+    background-size: calc(1.2 * 100vh) 100vh;
+
+  }
+}
+
+/*nav {*/
+/*  display: flex;*/
+/*}*/
+
+.App-logo {
+  height: 5vmin;
+  position: fixed;
+  top: 2%;
+  left: 18%;
+
+}
+
+.App-link {
+  color: #09d3ac;
+
+}
+
+@media all and (max-width:768px) {
+  .App {
+    background-size: calc(.8 * 100vh) 100vh;
+
+  }
+  .awssld__bullets > button {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media all and (max-width:420px) {
+  .App {
+    background-size: calc(.8 * 100vh) 100vh;
+
+  }
+  .awssld__bullets > button {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media all and (max-width:376px) {
+  .App {
+    background-size: calc(.8 * 100vh) 100vh;
+
+  }
+  .awssld__bullets > button {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media all and (max-width:360px) {
+  .App {
+    background-size: calc(.7rem * 100vh) 100vh;
+
+  }
+  .awssld__bullets > button {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media all and (max-width:320px) {
+  .App {
+    background-size: calc(.6rem * 100vh) 100vh;
+
+  }
+  .awssld__bullets > button {
+    width: 10px;
+    height: 10px;
+  }
+}

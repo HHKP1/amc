@@ -1,0 +1,100 @@
+
+.container {
+    /*position: relative;*/
+    width: 100vw;
+    height: 100vh;
+    transform: translate3d(0,0,0);
+    will-change: transform;
+}
+
+.cup_all_all {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cup_all {
+    bottom: -20%;
+    width: 100%;
+}
+.cupBox {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnvs {
+    position: relative;
+    width: 60%;
+    height: 70%;
+    bottom: -8%;
+    margin: 0 auto;
+    /*object-fit: cover;*/
+}
+
+@media all and (max-width: 1440px) {
+    /*.cup_all {*/
+    /*    bottom: -20%;*/
+    /*    width: 100%;*/
+    /*}*/
+    .cupBox {
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 768px) {
+    /*.cup_all {*/
+    /*    bottom: -20%;*/
+    /*    width: 100%;*/
+    /*}*/
+    .cupBox {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 568px) {
+    /*.cup_all {*/
+    /*    bottom: -20%;*/
+    /*    width: 100%;*/
+    /*}*/
+    .cupBox {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 420px) {
+    /*.cup_all {*/
+    /*    bottom: -20%;*/
+    /*    width: 100%;*/
+    /*}*/
+    .cupBox {
+        width: 45%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 360px) {
+    /*.cup_all {*/
+    /*    bottom: -20%;*/
+    /*    width: 100%;*/
+    /*}*/
+    .cupBox {
+        width: 40%;
+        margin: 0 auto;
+    }
+}

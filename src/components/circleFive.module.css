@@ -1,0 +1,126 @@
+
+.container {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 48.3%;
+    left: 62%;
+    transform: translate3d(0,0,0);
+
+}
+
+
+.content_eye {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    display: flex;
+    top: 47%;
+    left: 70.86%;
+    align-items: center;
+}
+._eye {
+    position: absolute;
+    /*width: 70%;*/
+    height: 70%;
+}
+.circle {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+/*@media all and (max-width:1280px) {*/
+/*    .container {*/
+/*        position: absolute;*/
+/*        width: 13%;*/
+/*        height: 13%;*/
+/*        top: 50.3%;*/
+/*        left: 63%;*/
+/*    }*/
+/*}*/
+@media all and (max-width:1024px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 50.3%;
+        left: 63%;
+    }
+    .content_eye {
+        top: 51%;
+        left: 78.86%;
+    }
+}
+@media all and (max-width:768px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 47.3%;
+        left: 58%;
+    }
+    .content_eye {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 59%;
+        left: 69.86%;
+        align-items: center;
+    }
+}
+@media all and (max-width:658px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 47.3%;
+        left: 58%;
+    }
+    .content_eye {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 59%;
+        left: 69.86%;
+        align-items: center;
+    }
+}
+@media all and (max-width:420px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 47.3%;
+        left: 58%;
+    }
+    .content_eye {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 59%;
+        left: 69.86%;
+        align-items: center;
+    }
+}
+@media all and (max-width:360px) {
+    .container {
+        position: absolute;
+        width: 13%;
+        height: 13%;
+        top: 47.3%;
+        left: 58%;
+    }
+    .content_eye {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        top: 59%;
+        left: 69.86%;
+        align-items: center;
+    }
+}

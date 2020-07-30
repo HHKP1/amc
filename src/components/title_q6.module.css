@@ -1,0 +1,130 @@
+.header {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate3d(0, 0, 0);
+    will-change: transform;
+}
+
+.decrypt_holder {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1em;
+    color: #ffffff;
+    font-family: 'Intro-Bold', sans-serif;
+    font-weight: bold;
+    /*transform-style: preserve-3d;*/
+    /*filter: url(#wades_text);*/
+}
+
+.decrypt {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.4em;
+    color: #E7EAED;
+    margin: 0;
+    font-family: 'Intro-Light', monospace;
+    font-weight: 400;
+    font-style: oblique;
+    transform-style: preserve-3d;
+    filter: url(#wades_text);
+    transform: translate3d(0, 0, 0);
+}
+
+@media all and (max-width: 1440px) {
+    .header {
+        top: 0;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .decrypt {
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .header {
+        top: 5%;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .decrypt {
+        font-size: .8rem;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .header {
+        top: 10%;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .decrypt {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header {
+        top: 10%;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .decrypt {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 568px) {
+    .header {
+        top: 10%;
+    }
+    .title {
+        font-size: 1.3rem;
+    }
+    .decrypt {
+        font-size: .7rem;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .header {
+        top: 10%;
+    }
+    .title {
+        font-size: 1.3rem;
+    }
+    .decrypt {
+        font-size: .7rem;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .header {
+        top: 5%;
+    }
+    .title {
+        font-size: 1.1rem;
+    }
+    .decrypt {
+        font-size: .55rem;
+    }
+}
+
+
+
