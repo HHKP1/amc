@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/amic2/static/css/main.09774b8b.chunk.css",
-    "main.js": "/amic2/static/js/main.72e48004.chunk.js",
-    "main.js.map": "/amic2/static/js/main.72e48004.chunk.js.map",
-    "runtime-main.js": "/amic2/static/js/runtime-main.a7ca63f0.js",
-    "runtime-main.js.map": "/amic2/static/js/runtime-main.a7ca63f0.js.map",
-    "static/css/2.d71805a1.chunk.css": "/amic2/static/css/2.d71805a1.chunk.css",
-    "static/js/2.c2cb756b.chunk.js": "/amic2/static/js/2.c2cb756b.chunk.js",
-    "static/js/2.c2cb756b.chunk.js.map": "/amic2/static/js/2.c2cb756b.chunk.js.map",
-    "index.html": "/amic2/index.html",
-    "precache-manifest.5e4bd89d5f9c6a0843b5c6b23e1cb8d2.js": "/amic2/precache-manifest.5e4bd89d5f9c6a0843b5c6b23e1cb8d2.js",
-    "service-worker.js": "/amic2/service-worker.js",
-    "static/css/2.d71805a1.chunk.css.map": "/amic2/static/css/2.d71805a1.chunk.css.map",
-    "static/css/main.09774b8b.chunk.css.map": "/amic2/static/css/main.09774b8b.chunk.css.map",
-    "static/media/App.css": "/amic2/static/media/wood-bg-1440x900.2b6a833a.png"
+    "main.css": "/amc/static/css/main.63c2de36.chunk.css",
+    "main.js": "/amc/static/js/main.478f11ba.chunk.js",
+    "main.js.map": "/amc/static/js/main.478f11ba.chunk.js.map",
+    "runtime-main.js": "/amc/static/js/runtime-main.b40af11b.js",
+    "runtime-main.js.map": "/amc/static/js/runtime-main.b40af11b.js.map",
+    "static/css/2.d71805a1.chunk.css": "/amc/static/css/2.d71805a1.chunk.css",
+    "static/js/2.c2cb756b.chunk.js": "/amc/static/js/2.c2cb756b.chunk.js",
+    "static/js/2.c2cb756b.chunk.js.map": "/amc/static/js/2.c2cb756b.chunk.js.map",
+    "index.html": "/amc/index.html",
+    "precache-manifest.640c3f7334eeb27de64dfd40e8a6aa63.js": "/amc/precache-manifest.640c3f7334eeb27de64dfd40e8a6aa63.js",
+    "service-worker.js": "/amc/service-worker.js",
+    "static/css/2.d71805a1.chunk.css.map": "/amc/static/css/2.d71805a1.chunk.css.map",
+    "static/css/main.63c2de36.chunk.css.map": "/amc/static/css/main.63c2de36.chunk.css.map",
+    "static/media/App.css": "/amc/static/media/wood-bg-1440x900.2b6a833a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7ca63f0.js",
+    "static/js/runtime-main.b40af11b.js",
     "static/css/2.d71805a1.chunk.css",
     "static/js/2.c2cb756b.chunk.js",
-    "static/css/main.09774b8b.chunk.css",
-    "static/js/main.72e48004.chunk.js"
+    "static/css/main.63c2de36.chunk.css",
+    "static/js/main.478f11ba.chunk.js"
   ]
 }
