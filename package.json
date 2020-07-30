@@ -2,7 +2,7 @@
   "name": "amic2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hhkp1.github.io/amic2/",
+  "homepage": "https://hhkp1.github.io/amc/",
   "dependencies": {
     "@inlet/react-pixi": "^1.2.12",
     "canvas": "^2.6.1",
